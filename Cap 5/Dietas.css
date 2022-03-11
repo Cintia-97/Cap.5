@@ -1,0 +1,116 @@
+h1 {
+    color: rgb(49, 77, 49);
+    text-align: center;
+    padding: auto;
+    padding-top: 10px;    
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+}
+
+p {
+    text-align: justify;
+    padding: 10px 20px;
+    padding-top: 10px;
+}
+
+body{
+    background-image: url(./página_principal/fundo.jpg);
+    text-align: center;
+    font-size: 15px;
+}
+
+.card {
+    padding: 20px;
+}
+
+.container tab-pane active{
+    background-color: aliceblue;
+}
+
+footer {
+text-align: center;
+padding: 3px;
+background-color: rgb(24, 16, 16);
+color: rgb(13, 14, 13);
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(45, 83, 45);
+
+}
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: rgb(243, 250, 245);
+}
+
+a:active{
+    color: rgb(45, 83, 45);
+  }
+
+@media (max-width: 480px) {
+    p {
+      padding: auto;
+      padding: 10px 10px;
+      font-size: 12px;
+    }
+    h1 {
+        font-size: 10px;
+        padding: auto;
+        padding: 10px 10px;
+    }
+    h3 {
+        font-size: 10px;
+        padding: auto;
+        padding: 10px 10px;
+    }
+    h4{
+        font-size: 12px;
+        padding: auto;
+        padding: 10px 10px;
+    }
+    h5{
+        font-size: 10px;
+        padding: auto;
+        padding: 10px 10px;
+    }
+    footer{
+        font-size: 10px;
+    }
+  }
+@media (max-width: 590px) {
+    p {
+        padding: auto;
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 12px;
+        padding: auto;
+        padding: 10px 10px;
+    }
+    h3 {
+        font-size: 10px;
+        padding: auto;
+        padding: 10px 10px;
+    }
+    h4{
+        font-size: 8px;
+        padding: auto;
+        padding: 10px 10px;
+    }
+    h5{
+        font-size: 10px;
+        padding: auto;
+        padding: 10px 10px;
+    }
+    footer{
+        font-size: 10px;
+    }
+}

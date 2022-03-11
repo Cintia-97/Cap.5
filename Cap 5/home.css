@@ -1,0 +1,105 @@
+h1 {
+    color: rgb(49, 77, 49);
+    text-align: center;
+    padding: auto;
+    padding-top: 10px;
+    /* background-image:url(./página_principal/titulo.jpeg); */
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    text-align: justify;
+    padding: 50px 50px;
+    padding-top: 50px;
+    /* background-color: rgb(223, 223, 223); */
+    border-radius: 5px;
+}
+
+.size{
+    font-size: 30px;
+}
+
+body{
+    background-image: url(./página_principal/fundo.jpg);
+}
+
+.d-block{
+    padding: 20px 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(24, 16, 16);
+    color: rgb(13, 14, 13);
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(45, 83, 45);
+}
+a:link{
+    color: rgb(45, 83, 45);
+}
+
+a:visited{
+    color: rgb(243, 250, 245);
+}
+
+a:active{
+    color: rgb(45, 83, 45);
+}
+
+@media (max-width: 480px) {
+    p {
+      padding: auto;
+      padding: 10px 10px;
+      font-size: 12px;
+    }
+    h1 {
+        font-size: 16px;
+        padding: auto;
+        padding: 10px 10px;
+    }
+    h3 {
+        font-size: 10px;
+        padding: auto;
+        padding: 10px 10px;
+    }
+    h4{
+        font-size: 12px;
+        padding: auto;
+        padding: 10px 10px;
+    }
+    footer{
+        font-size: 10px;
+    }
+  }
+@media (max-width: 590px) {
+    p {
+        padding: auto;
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 16px;
+        padding: auto;
+        padding: 10px 10px;
+    }
+    h3 {
+        font-size: 10px;
+        padding: auto;
+        padding: 10px 10px;
+    }
+    h4{
+        font-size: 8px;
+        padding: auto;
+        padding: 10px 10px;
+    }
+    footer{
+        font-size: 10px;
+    }
+}
